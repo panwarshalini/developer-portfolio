@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio & UI Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Dark/Light Theme Toggle -->
+  <input type="checkbox" id="theme-toggle">
+
+  <div class="app-container">
+    
+    <!-- Navbar -->
+    <header>
+      <nav>
+        <div class="logo">&lt;Shalini Panwar /&gt;</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#pricing">Pricing Component</a></li>
+          <li><a href="#dashboard">Dashboard Preview</a></li>
+        </ul>
+        <label for="theme-toggle" class="theme-btn">Toggle Theme</label>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero / About Section -->
+      <section class="hero" id="about">
+        <!-- Line 33-34 in index.html -->
+        <h1>Computer Applications Student & <br><span>Tech Learner.</span></h1>
+        <p>BCA student exploring web development, Python programming, and database basics through practical hands-on projects.</p>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2 class="section-title">Skills & Tech</h2>
+        <div class="skills-grid">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">HTML5 & CSS3</span>
+            <span class="skill-tag">Flexbox & CSS Grid</span>
+            <span class="skill-tag">Responsive Design</span>
+            <span class="skill-tag">SQL (Basics)</span>
+            <span class="skill-tag">MS Excel (Learning)</span>
+        </div>
+      </section>
+
+      <!-- Pricing Table Showcase -->
+      <section id="pricing">
+        <h2 class="section-title">Interactive Pricing Component</h2>
+        <div class="pricing-container">
+          <div class="card">
+            <h3 class="title">Basic</h3>
+            <div class="price">$19<span>/mo</span></div>
+            <ul class="features">
+              <li>5 Projects</li>
+              <li>10GB Storage</li>
+              <li>Community Support</li>
+            </ul>
+            <button class="btn">Get Started</button>
+          </div>
+
+          <div class="card popular">
+            <div class="badge">Most Popular</div>
+            <h3 class="title">Pro</h3>
+            <div class="price">$49<span>/mo</span></div>
+            <ul class="features">
+              <li>Unlimited Projects</li>
+              <li>100GB Storage</li>
+              <li>24/7 Priority Support</li>
+            </ul>
+            <button class="btn">Get Started</button>
+          </div>
+
+          <div class="card">
+            <h3 class="title">Enterprise</h3>
+            <div class="price">$99<span>/mo</span></div>
+            <ul class="features">
+              <li>Dedicated Storage</li>
+              <li>Custom Integrations</li>
+              <li>SLA Guarantee</li>
+            </ul>
+            <button class="btn">Contact Sales</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dashboard Component Showcase -->
+      <section id="dashboard">
+        <h2 class="section-title">Dashboard UI Preview</h2>
+        <div class="dashboard-card">
+          <div class="stats-grid">
+            <div class="stat-card">
+              <h4>Total Revenue</h4>
+              <div class="val">$45,231</div>
+            </div>
+            <div class="stat-card">
+              <h4>Active Users</h4>
+              <div class="val">+2,350</div>
+            </div>
+          </div>
+          <div class="bar-chart">
+            <div class="bar" style="height: 40%;"></div>
+            <div class="bar" style="height: 70%;"></div>
+            <div class="bar" style="height: 55%;"></div>
+            <div class="bar" style="height: 90%;"></div>
+            <div class="bar" style="height: 65%;"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Shalini Panwar. Built with HTML & CSS.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
